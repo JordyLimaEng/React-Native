@@ -2,8 +2,7 @@ import React from 'react'
 import {Text} from 'react-native'
 import Estilo from './estilo'
 
-export default(props) => {
-        const {max, min} = props
+export default({max,min}) => {        
         return (
         <Text style={Estilo.fontP}>
             Max = {max}, Min = {min}, Aleatorio = {Random(max,min)}
