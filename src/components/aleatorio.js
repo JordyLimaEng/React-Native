@@ -7,6 +7,7 @@ export default(props) =>
             Max = {props.max}, Min = {props.min}, Aleatorio = {Random(props.max,props.min)}
         </Text>
 
-function Random(max, min){    
-    return Math.floor(Math.random() * max) + min
+function Random(max, min){   
+    let d = max - min + 1
+    return Math.floor(Math.random() * d) + min
 }

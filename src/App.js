@@ -9,8 +9,13 @@ import Primeiro from './components/Primeiro'
 export default () =>  (
 
     <View style={style.App}>
-        <MinMax min={3} max={30}/>
-        <Aleatorio max={10} min={1}/>
+        {/* <MinMax min={3} max={30}/> */}
+        <Aleatorio max={60} min={1}/>
+        <Aleatorio max={60} min={1}/>
+        <Aleatorio max={60} min={1}/>
+        <Aleatorio max={60} min={1}/>
+        <Aleatorio max={60} min={1}/>
+        <Aleatorio max={60} min={1}/>
         {/* <CompPadrao/>
         <Comp1/>
         <Comp2/>
