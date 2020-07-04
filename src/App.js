@@ -1,12 +1,12 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import Botao from './components/Botao'
+import Contador from './components/Contador'
 
 export default () =>  (
 
     <View style={style.App}>
-        <Botao />
+        <Contador inicial={100} />
     </View>
 
 )

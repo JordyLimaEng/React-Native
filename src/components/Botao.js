@@ -5,8 +5,8 @@ export default props =>{
     
     function executar(){
         console.warn("#1")
-    }
-
+    }    
+ 
     return(
         <>
             <Button 
