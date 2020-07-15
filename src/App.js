@@ -1,12 +1,12 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-import Diferenciar from './components/diferenciar'
+import ParImpar from './components/ParImpar'
 export default () =>  (
 
-    <View style={style.App}>
-        <Diferenciar/>
-    </View>
+    <SafeAreaView style={style.App}>
+        <ParImpar num={4}/>
+    </SafeAreaView>
 
 )
 
