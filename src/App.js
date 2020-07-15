@@ -1,16 +1,13 @@
 import React from 'react'
 import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-import UsuarioLogado from './components/UsuarioLogado'
+import ListaProdutos from './components/produtos/ListaProdutos'
 
 export default () =>  (
 
     <SafeAreaView style={style.App}>
 
-        {/* exibe */}
-        <UsuarioLogado usuario={  {nome: "Gui", email: "Gui@gmail.com"}  }/>
-        {/* Não exibe */}
-        <UsuarioLogado usuario={  {nome: "Gui"}  }/>
+        <ListaProdutos/>
 
 
     </SafeAreaView>
