@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-import ListaProdutos from './components/produtos/ListaProdutos'
+import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 
 export default () =>  (
 
     <SafeAreaView style={style.App}>
 
-        <ListaProdutos/>
+        <ListaProdutosV2/>
 
 
     </SafeAreaView>
