@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+import DigiteSeuNome from './components/DigiteSeuNome'
 
 export default () =>  (
 
     <SafeAreaView style={style.App}>
 
-        <ListaProdutosV2/>
+        <DigiteSeuNome/>
 
 
     </SafeAreaView>
