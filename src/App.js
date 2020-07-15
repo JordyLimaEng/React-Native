@@ -1,11 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import ContadorV2 from './components/contador/ContadorV2'
+import Diferenciar from './components/diferenciar'
 export default () =>  (
 
     <View style={style.App}>
-        <ContadorV2 />
+        <Diferenciar/>
     </View>
 
 )
