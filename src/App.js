@@ -7,7 +7,7 @@ export default () =>  (
 
     <SafeAreaView style={style.App}>
 
-        <Mega qtdeNumeros={7}/>
+        <Mega qtdeNumeros={12}/>
 
     </SafeAreaView>
 
