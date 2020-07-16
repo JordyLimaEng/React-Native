@@ -6,7 +6,7 @@ export default props =>{
     const lado = props.lado || 50
     return (
         <View style={{
-            //height: lado,
+            height: lado,
             width: lado,
             backgroundColor: props.cor || '000'
         }}/>
