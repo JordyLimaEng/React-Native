@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-import DigiteSeuNome from './components/DigiteSeuNome'
+import FlexboxV1 from './components/layout/FlexboxV1'
 
 export default () =>  (
 
     <SafeAreaView style={style.App}>
 
-        <DigiteSeuNome/>
+        <FlexboxV1/>
 
 
     </SafeAreaView>
