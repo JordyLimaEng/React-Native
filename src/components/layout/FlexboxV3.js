@@ -17,8 +17,8 @@ export default props =>{
 const style = StyleSheet.create({
     FlexV3: {//manipulando o eixo horizontal como principal e o vertical como secundario
         flexDirection: "row",
-        justifyContent: "space-between",//linha
-        alignItems: "baseline",//coluna
+        justifyContent: "space-evenly",//linha
+        alignItems: "stretch",//coluna
         height: 300,
         width: "100%",
         backgroundColor: '#000'
